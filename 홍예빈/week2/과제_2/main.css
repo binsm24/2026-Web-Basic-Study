@@ -1,7 +1,6 @@
 body {
 	height: 100vh;
     background-image: url('images/background.jpeg');
-	background-color: #ff9c00;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -37,7 +36,7 @@ body {
 /* .pokemon 요소에 마우스를 올렸을 때 */
 .container .pokemons .pokemon :hover {
     border: 3px solid white;
-    transition: all 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
     transform: scale(1.2);
     border-radius: 10px;
     background-color: #ff9c00;
@@ -54,100 +53,100 @@ body {
 }
 
 /* 각 포켓몬 요소에 이미지 적용 */
-.container .pokemons div:nth-child(1) .image {
+.container .pokemon:nth-child(1) .image {
     background-image: url('images/pokemon1.png');
 }
-.container .pokemons div:nth-child(2) .image {
+.container .pokemon:nth-child(2) .image {
     background-image: url('images/pokemon2.png');
 }
-.container .pokemons div:nth-child(3) .image {
+.container .pokemon:nth-child(3) .image {
     background-image: url('images/pokemon3.png');
 }
-.container .pokemons div:nth-child(4) .image {
+.container .pokemon:nth-child(4) .image {
     background-image: url('images/pokemon4.png');
 }
-.container .pokemons div:nth-child(5) .image {
+.container .pokemon:nth-child(5) .image {
     background-image: url('images/pokemon5.png');
 }
-.container .pokemons div:nth-child(6) .image {
+.container .pokemon:nth-child(6) .image {
     background-image: url('images/pokemon6.png');
 }
-.container .pokemons div:nth-child(7) .image {
+.container .pokemon:nth-child(7) .image {
     background-image: url('images/pokemon7.png');
 }
-.container .pokemons div:nth-child(8) .image {
+.container .pokemon:nth-child(8) .image {
     background-image: url('images/pokemon8.png');
 }
-.container .pokemons div:nth-child(9) .image {
+.container .pokemon:nth-child(9) .image {
     background-image: url('images/pokemon9.png');
 }
-.container .pokemons div:nth-child(10) .image {
+.container .pokemon:nth-child(10) .image {
     background-image: url('images/pokemon10.png');
 }
-.container .pokemons div:nth-child(11) .image {
+.container .pokemon:nth-child(11) .image {
     background-image: url('images/pokemon11.png');
 }
-.container .pokemons div:nth-child(12) .image {
+.container .pokemon:nth-child(12) .image {
     background-image: url('images/pokemon12.png');
 }
-.container .pokemons div:nth-child(13) .image {
+.container .pokemon:nth-child(13) .image {
     background-image: url('images/pokemon13.png');
 }
-.container .pokemons div:nth-child(14) .image {
+.container .pokemon:nth-child(14) .image {
     background-image: url('images/pokemon14.png');
 }
-.container .pokemons div:nth-child(15) .image {
+.container .pokemon:nth-child(15) .image {
     background-image: url('images/pokemon15.png');
 }
-.container .pokemons div:nth-child(16) .image {
+.container .pokemon:nth-child(16) .image {
     background-image: url('images/pokemon16.png');
 }
-.container .pokemons div:nth-child(17) .image {
+.container .pokemon:nth-child(17) .image {
     background-image: url('images/pokemon17.png');
 }
-.container .pokemons div:nth-child(18) .image {
+.container .pokemon:nth-child(18) .image {
     background-image: url('images/pokemon18.png');
 }
-.container .pokemons div:nth-child(19) .image {
+.container .pokemon:nth-child(19) .image {
     background-image: url('images/pokemon19.png');
 }
-.container .pokemons div:nth-child(20) .image {
+.container .pokemon:nth-child(20) .image {
     background-image: url('images/pokemon20.png');
 }
-.container .pokemons div:nth-child(21) .image {
+.container .pokemon:nth-child(21) .image {
     background-image: url('images/pokemon21.png');
 }
-.container .pokemons div:nth-child(22) .image {
+.container .pokemon:nth-child(22) .image {
     background-image: url('images/pokemon22.png');
 }
-.container .pokemons div:nth-child(23) .image {
+.container .pokemon:nth-child(23) .image {
     background-image: url('images/pokemon23.png');
 }
-.container .pokemons div:nth-child(24) .image {
+.container .pokemon:nth-child(24) .image {
     background-image: url('images/pokemon24.png');
 }
-.container .pokemons div:nth-child(25) .image {
+.container .pokemon:nth-child(25) .image {
     background-image: url('images/pokemon25.png');
 }
-.container .pokemons div:nth-child(26) .image {
+.container .pokemon:nth-child(26) .image {
     background-image: url('images/pokemon26.png');
 }
-.container .pokemons div:nth-child(27) .image {
+.container .pokemon:nth-child(27) .image {
     background-image: url('images/pokemon27.png');
 }
-.container .pokemons div:nth-child(28) .image {
+.container .pokemon:nth-child(28) .image {
     background-image: url('images/pokemon28.png');
 }
-.container .pokemons div:nth-child(29) .image {
+.container .pokemon:nth-child(29) .image {
     background-image: url('images/pokemon29.png');
 }
-.container .pokemons div:nth-child(30) .image {
+.container .pokemon:nth-child(30) .image {
     background-image: url('images/pokemon30.png');
 }
-.container .pokemons div:nth-child(31) .image {
+.container .pokemon:nth-child(31) .image {
     background-image: url('images/pokemon31.png');
 }
-.container .pokemons div:nth-child(32) .image {
+.container .pokemon:nth-child(32) .image {
     background-image: url('images/pokemon32.png');
 }
 
