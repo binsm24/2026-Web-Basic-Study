@@ -50,6 +50,9 @@ async function fetchFacts(count = 1) {
   try {
     showLoading();
     const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
     const data = await response.json();
     return data.data;
 
@@ -68,7 +71,7 @@ getFactBtn.addEventListener("click", async () => {
 });
 
 getMultipleBtn.addEventListener("click", async () => {
-  const count = parseInt(factCount.value);
+  const count = parseInt(factCount.value || 1);
   if (count < 1 || count > 5) {
     showError("Please enter a number between 1 and 5");
     return;
