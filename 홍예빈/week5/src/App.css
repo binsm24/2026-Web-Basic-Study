@@ -1,0 +1,10 @@
+/* 전체 배경 및 폰트 설정 */
+body {
+  background-color: #f0f2f5;
+  font-family:
+    "Pretendard",
+    -apple-system,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}

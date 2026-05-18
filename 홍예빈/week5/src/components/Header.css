@@ -1,0 +1,42 @@
+.navbar {
+  padding: 20px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: "333";
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 중앙 로고 */
+.logo {
+  margin: 0;
+}
+
+.logo-text {
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 10px;
+}
+
+/* 우측 즐겨찾기 버튼 */
+.fav-page-btn {
+  position: absolute;
+  right: 20px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: black;
+}
+
+.fav-page-btn img {
+  object-fit: contain;
+  width: 30px;
+  height: 30px;
+}

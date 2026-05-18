@@ -1,0 +1,97 @@
+.main-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* 기본 설정 (모바일): 1줄 */
+.movie-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+}
+
+/* 태블릿 (768px 이상): 2줄 */
+@media (min-width: 768px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 데스크탑 (1024px 이상): 3줄 */
+@media (min-width: 1024px) {
+  .movie-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.movie-detail-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* 상단 이미지 영역 */
+.detail-poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 하단 텍스트 정보 영역 */
+.detail-content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.detail-content h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+.detail-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 5px 0 20px 0;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* 장르 스타일 */
+.detail-genres {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+.detail-genres span {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.detail-genres span:not(:last-child)::after {
+  content: "|";
+  margin-left: 10px;
+}
+
+/* 영화 설명 스타일 */
+.detail-summary p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  margin: 0;
+}
+
+/* 에러 메시지 스타일 */
+.error {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.2rem;
+  color: #ff4d4f;
+}
