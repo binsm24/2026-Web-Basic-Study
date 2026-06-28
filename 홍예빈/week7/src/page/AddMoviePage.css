@@ -1,0 +1,99 @@
+/* 영화 추가 페이지 전체 컨테이너 */
+.add-movie-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* 제목 및 설명 텍스트 */
+.add-movie-container h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+.add-movie-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+}
+
+/* 폼 레이아웃 */
+.add-movie-form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* 입력 그룹 (라벨 + 인풋) */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333333;
+}
+
+.input-group label span {
+    color: #ff4d4f;
+    margin-left: 4px;
+}
+
+/* 인풋창 및 텍스트에어리어 공통 스타일 */
+.add-movie-form input[type="text"],
+.add-movie-form textarea {
+    padding: 12px 14px;
+    border-radius: 6px;
+    border: 1px solid #dddddd;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    background-color: #fafafa;
+    transition: all 0.2s ease-in-out;
+}
+
+/* 포커스 되었을 때 강조 */
+.add-movie-form input[type="text"]:focus,
+.add-movie-form textarea :focus {
+    border-color: #1a1a1a;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
+}
+
+.add-movie-form textarea {
+    resize: none;
+    line-height: 1.5;
+}
+
+/* 등록하기 버튼 스타일 */
+.submit-btn {
+    padding: 14px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+}
+
+.submit-btn:hover {
+    background-color: #333333;
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}
